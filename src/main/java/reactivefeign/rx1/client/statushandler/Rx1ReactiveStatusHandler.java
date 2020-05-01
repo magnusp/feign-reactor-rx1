@@ -1,4 +1,4 @@
-package github.magnusp.reactivefeign.rx1.client.statushandler;
+package reactivefeign.rx1.client.statushandler;
 
 import reactivefeign.client.ReactiveHttpResponse;
 import reactivefeign.client.statushandler.ReactiveStatusHandler;

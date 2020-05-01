@@ -1,4 +1,4 @@
-package github.magnusp.reactivefeign.rx1;
+package reactivefeign.rx1;
 
 import feign.Contract;
 import feign.MethodMetadata;
@@ -13,9 +13,9 @@ import reactivefeign.publisher.MonoPublisherHttpClient;
 import reactivefeign.publisher.PublisherClientFactory;
 import reactivefeign.publisher.PublisherHttpClient;
 import reactivefeign.retry.ReactiveRetryPolicy;
-import github.magnusp.reactivefeign.rx1.client.statushandler.Rx1ReactiveStatusHandler;
-import github.magnusp.reactivefeign.rx1.client.statushandler.Rx1StatusHandler;
-import github.magnusp.reactivefeign.rx1.methodhandler.Rx1MethodHandlerFactory;
+import reactivefeign.rx1.client.statushandler.Rx1ReactiveStatusHandler;
+import reactivefeign.rx1.client.statushandler.Rx1StatusHandler;
+import reactivefeign.rx1.methodhandler.Rx1MethodHandlerFactory;
 import reactivefeign.webclient.WebClientFeignCustomizer;
 import reactivefeign.webclient.WebReactiveFeign;
 import reactivefeign.webclient.client.WebReactiveHttpClient;

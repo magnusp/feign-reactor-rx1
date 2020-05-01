@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package github.magnusp.reactivefeign.rx1.client.statushandler;
+package reactivefeign.rx1.client.statushandler;
 
 import reactivefeign.client.ReactiveHttpResponse;
 import rx.Single;

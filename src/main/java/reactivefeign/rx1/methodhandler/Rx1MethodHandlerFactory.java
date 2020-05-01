@@ -1,4 +1,4 @@
-package github.magnusp.reactivefeign.rx1.methodhandler;
+package reactivefeign.rx1.methodhandler;
 
 import feign.MethodMetadata;
 import feign.Target;

@@ -11,18 +11,17 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package github.magnusp.reactivefeign.rx1;
+package reactivefeign.rx1;
 
 import feign.Contract;
 import feign.MethodMetadata;
+import rx.Observable;
+import rx.Single;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.HashSet;
 import java.util.List;
-import rx.Observable;
-import rx.Single;
-
 import java.util.Set;
 
 import static feign.Util.checkNotNull;

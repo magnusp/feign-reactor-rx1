@@ -1,4 +1,4 @@
-package github.magnusp.reactivefeign.rx1.methodhandler;
+package reactivefeign.rx1.methodhandler;
 
 import org.reactivestreams.Publisher;
 import reactivefeign.methodhandler.MethodHandler;
@@ -29,7 +29,7 @@ public class Rx1MethodHandler implements MethodHandler {
 			if(returnPublisherType == Observable.class){
 				return RxReactiveStreams.toObservable(Flux.from(publisher));
 			} else if(returnPublisherType == Single.class){
-				return RxReactiveStreams.toObservable(Mono.from(publisher));
+				return RxReactiveStreams.toSingle(Mono.from(publisher));
 			} else {
 				throw new IllegalArgumentException("Unexpected returnPublisherType="+returnPublisherType.getClass());
 			}

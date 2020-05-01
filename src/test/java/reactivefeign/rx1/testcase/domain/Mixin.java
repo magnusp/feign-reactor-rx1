@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright 2018 The Feign Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
@@ -11,14 +11,11 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package github.magnusp.reactivefeign.rx1.client.statushandler;
+package reactivefeign.rx1.testcase.domain;
 
-import reactivefeign.client.ReactiveHttpResponse;
-import rx.Single;
-
-public interface Rx1StatusHandler {
-
-  boolean shouldHandle(int status);
-
-  Single<Throwable> decode(String methodKey, ReactiveHttpResponse response);
+/**
+ * Ice cream mix-ins.
+ */
+public enum Mixin {
+  COOKIES, MNMS, CHOCOLATE_SIROP, STRAWBERRY_SIROP, NUTS, RAINBOW
 }
