@@ -32,7 +32,7 @@
         <spring.version>5.2.5.RELEASE</spring.version>
 
         <!-- Tests -->
-        <wiremock.version>2.26.3</wiremock.version>
+        <wiremock.version>2.27.0</wiremock.version>
         <awaitility.version>4.0.2</awaitility.version>
 
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
